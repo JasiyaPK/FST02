@@ -1,0 +1,94 @@
+#text-styling{
+
+    /* Default: Times New Roman */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Font Weight */
+  /* Keyword Values */
+  font-weight: normal;
+  font-weight: bold;
+  /* Numeric Values */
+  /* [100 - 950] */
+  font-weight: 300;
+  font-weight: 400; /* Default Value */
+  font-weight: 700; /* Bold */
+
+  /* font style */
+  font-style: italic;
+  font-style: normal;
+  font-style: oblique;
+
+  /* line height */
+  line-height: normal;
+  line-height: 3;
+  line-height: 50%;
+  line-height: 16px;
+
+  /* Letter Spacing */
+  letter-spacing: 4px; /* adds space */
+  letter-spacing: -2px; /* removes space */
+  letter-spacing: normal;
+}
+
+  #text-decoration{
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: underline;
+
+    text-decoration: underline overline line-through;
+
+    text-decoration: none;
+
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;  
+    text-decoration-style: wavy;  
+
+    text-decoration-color: red;
+
+    /* Combine all of them */
+    text-decoration: overline solid red;
+
+
+  
+  }
+  
+  #colors{
+
+    /* color names */
+    color: white;
+    background-color:red;
+
+    /* RGB Values */
+    /* rgb(red,green,blue) */
+    color:rgb(18, 119, 18);
+
+    /* alpha - (0-0; transparent) */
+    background-color: rgba(0, 0, 0, 0.3);
+
+    /* hexadecimal */
+    /* #rrggbb(0-9,A-F) */
+
+    color: #ffc8dd;
+
+
+  }
+/* unit of measurement */
+
+  #absolute-unit-px{
+
+    font-size: 24px;
+  }
+
+  /* Relative to the parent element */
+#relative-unit-em {
+    font-size: 2em;
+    /* 2(20px) = 40px */
+  }
+
+  /* Relative to the root element */
+#relative-unit-rem {
+    font-size: 2rem;
+    /* 2(16) = 32 */
+  }

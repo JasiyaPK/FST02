@@ -1,0 +1,54 @@
+/* element Selector */
+span{
+
+    font-size: 18px;
+    color: white;
+    background-color: green;
+
+}
+
+/* class slector */
+.intro-paragraphs{
+    color: red;
+    background-color: pink;
+}
+
+/* IDSelector */
+#main-heading{
+    font-weight: bold;
+}
+
+/* universal selector */
+
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* grouping Selector */
+h1, h2, .about-content{
+    color: orange;
+    text-align: center;
+}
+
+/* Descendant container */
+.article-container p{
+    font-style: italic;
+    color: green;
+}
+
+/* psuedo class */
+
+a:visited{
+    color: pink;
+}
+
+a:hover{
+    color: red;
+    font-size: 18px;
+}
+
+a:active{
+    color: yellow
+    
+}
